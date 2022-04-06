@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+	<title>Login V10</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="{% static 'images/favicon.ico' %"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'styles/bootstrap.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'styles/font-awesome.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'styles/icon-font.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'styles/animate.css' %}">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="{% static 'styles/hamburgers.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'styles/animsition.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'styles/select2.min.css' %}">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="{% static 'styles/daterangepicker.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'styles/util.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'styles/main.css' %}">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100 p-t-50 p-b-90">
+				<form class="login100-form validate-form flex-sb flex-w" method="POST" action="{% url 'calculate' %}">
+					{% csrf_token %}
+					<span class="login100-form-title p-b-51">
+						MINI PROJECT 
+                        <br>
+                        <br>
+                        Calculator
+					</span>
+
+					
+					<div class="wrap-input100 validate-input m-b-16" data-validate = "Username is required">
+						{% if inputs == '' %}
+							<input class="input100" type="text" name="inputs" placeholder="Enter Input Here">
+						{% else %}
+							<input class="input100" type="text" name="inputs" placeholder="Enter Input Here" value = "{{inputs}}">
+						{% endif %}
+						<span class="focus-input100"></span>
+					</div>
+					
+					
+					<div class="wrap-input100 validate-input m-b-16" data-validate = "Password is required">
+						{% if res == '' %}
+						<input class="input100" type="text" name="pass" placeholder="Result will be displayed here ">
+						{% else %}
+						<input class="input100" type="text" name="pass" placeholder="Result will be displayed here " value = "{{res}}">
+						{% endif %}
+						<span class="focus-input100"></span>
+					</div>
+
+
+                    <div class="flex-sb-m w-full p-t-3 p-b-24">
+						<div class="contact100-form-checkbox">
+							<input class="input-checkbox100" id="ckb1" type="radio" name="ops" value = "root">
+							<label class="label-checkbox100" for="ckb1">
+								Square Root √x
+							</label>
+						</div>
+
+                        <div class="contact100-form-checkbox">
+							<input class="input-checkbox100" id="ckb2" type="radio" name="ops" value = "fact">
+							<label class="label-checkbox100" for="ckb2">
+								Factorial X!
+							</label>
+						</div>
+						
+					</div>
+
+                    <div class="flex-sb-m w-full p-t-3 p-b-24">
+						<div class="contact100-form-checkbox">
+							<input class="input-checkbox100" id="ckb3" type="radio" name="ops" value = "log">
+							<label class="label-checkbox100" for="ckb3">
+								Natural Logarithm
+							</label>
+						</div>
+
+                        <div class="contact100-form-checkbox">
+							<input class="input-checkbox100" id="ckb4" type="radio" name="ops" value = "power">
+							<label class="label-checkbox100" for="ckb4">
+								Power function 
+							</label>
+						</div>
+						
+					</div>
+					
+					
+
+					<div class="container-login100-form-btn m-t-17">
+						<button class="login100-form-btn">
+							Calculate
+						</button>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="dropDownSelect1"></div>
+	
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
