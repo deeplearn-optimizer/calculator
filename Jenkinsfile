@@ -35,6 +35,7 @@ pipeline {
     }
 
     stage("Invoke ansible playbook") {
+      steps{
       ansiblePlaybook(
         inventory: "Inventory",
         installation: "ansible",
@@ -42,6 +43,7 @@ pipeline {
         playbook: "docker_playbook.yaml",
         extras: ""
       )
+    }
     }
 
   }
