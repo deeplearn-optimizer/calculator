@@ -30,10 +30,19 @@ pipeline {
     }
     stage('Remove Unused docker image') {
       steps{
-        sh "docker rmi $imagename:$BUILD_NUMBER"
          sh "docker rmi $imagename:latest"
-
       }
     }
+
+    stage("Invoke ansible playbook") {
+      ansiblePlaybook(
+        inventory: "Inventory",
+        installation: "ansible",
+        limit: "",
+        playbook: "docker_playbook.yaml",
+        extras: ""
+      )
+    }
+
   }
 }
