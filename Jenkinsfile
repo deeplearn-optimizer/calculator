@@ -37,6 +37,7 @@ pipeline {
     stage("Invoke ansible playbook") {
       steps{
       ansiblePlaybook(
+      	credentialsId: "contnainer_access_key",
         inventory: "Inventory",
         installation: "ansible",
         limit: "",
