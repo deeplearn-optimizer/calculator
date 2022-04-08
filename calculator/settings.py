@@ -139,3 +139,22 @@ JENKINS_TASKS = (
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'file': {
+            'level': 'WARNING',
+            'class': 'logging.FileHandler',
+            'filename': BASE_DIR / 'warning.log',
+        },
+    },
+    'loggers': {
+        '': {
+            'handlers': ['file'], 
+            'level': 'WARNING',
+            'propagate': True,
+        },
+    },
+}

@@ -1,0 +1,57 @@
+Calculator was accessed at 2022-04-08 05:42:17.267616 hours!
+Not Found: /vendor/bootstrap/js/popper.js
+Not Found: /vendor/jquery/jquery-3.2.1.min.js
+Not Found: /vendor/animsition/js/animsition.min.js
+Not Found: /vendor/bootstrap/js/bootstrap.min.js
+Not Found: /vendor/daterangepicker/moment.min.js
+Not Found: /vendor/daterangepicker/daterangepicker.js
+Not Found: /js/main.js
+Not Found: /vendor/countdowntime/countdowntime.js
+Not Found: /vendor/select2/select2.min.js
+Not Found: /vendor/animsition/js/animsition.min.js
+Not Found: /vendor/bootstrap/js/popper.js
+Not Found: /vendor/bootstrap/js/bootstrap.min.js
+Not Found: /vendor/select2/select2.min.js
+Not Found: /vendor/daterangepicker/moment.min.js
+Not Found: /vendor/daterangepicker/daterangepicker.js
+Not Found: /vendor/countdowntime/countdowntime.js
+Not Found: /js/main.js
+Not Found: /{% static 'images/favicon.ico' %
+Reuest for performing operations with params <QueryDict: {'csrfmiddlewaretoken': ['Vp8bC9JFnGsHFts5O9L1eVSC4SIgHuCF50SJyeCvqd1a7NAo06aLBvYepkFLz8sH'], 'inputs': ['100'], 'pass': [''], 'ops': ['root']}> 2022-04-08 05:42:51.955046 hours!
+Operation result was 10.0 2022-04-08 05:42:51.955345 hours!
+Not Found: /calculate/vendor/jquery/jquery-3.2.1.min.js
+Not Found: /calculate/vendor/bootstrap/js/popper.js
+Not Found: /calculate/vendor/animsition/js/animsition.min.js
+Not Found: /calculate/vendor/bootstrap/js/bootstrap.min.js
+Not Found: /calculate/vendor/countdowntime/countdowntime.js
+Not Found: /calculate/vendor/daterangepicker/daterangepicker.js
+Not Found: /calculate/vendor/daterangepicker/moment.min.js
+Not Found: /calculate/vendor/select2/select2.min.js
+Not Found: /calculate/js/main.js
+Not Found: /calculate/vendor/bootstrap/js/popper.js
+Not Found: /calculate/vendor/bootstrap/js/bootstrap.min.js
+Not Found: /calculate/vendor/select2/select2.min.js
+Not Found: /calculate/vendor/daterangepicker/moment.min.js
+Not Found: /calculate/vendor/daterangepicker/daterangepicker.js
+Not Found: /calculate/vendor/countdowntime/countdowntime.js
+Not Found: /calculate/js/main.js
+Operation result was 3.0 2022-04-08 05:49:59.137982 hours!
+Operation result was 2.1972245773362196 2022-04-08 05:49:59.138142 hours!
+Operation result was 362880 2022-04-08 05:49:59.138184 hours!
+Operation result was 81.0 2022-04-08 05:49:59.138236 hours!
+Calculator was accessed at 2022-04-08 06:04:14.137752 hours!
+Not Found: /vendor/jquery/jquery-3.2.1.min.js
+Not Found: /vendor/daterangepicker/daterangepicker.js
+Not Found: /vendor/bootstrap/js/bootstrap.min.js
+Not Found: /vendor/bootstrap/js/popper.js
+Not Found: /vendor/animsition/js/animsition.min.js
+Not Found: /vendor/daterangepicker/moment.min.js
+Not Found: /vendor/select2/select2.min.js
+Not Found: /vendor/countdowntime/countdowntime.js
+Not Found: /js/main.js
+Not Found: /vendor/bootstrap/js/bootstrap.min.js
+Not Found: /vendor/select2/select2.min.js
+Not Found: /vendor/daterangepicker/moment.min.js
+Not Found: /vendor/daterangepicker/daterangepicker.js
+Not Found: /vendor/countdowntime/countdowntime.js
+Not Found: /js/main.js

@@ -8,7 +8,7 @@ class OpsTestCase(TestCase):
 
     def test_operations(self):
         """WE WILL TEST ALL OPERATIONS ARE PERFORMED CORRECTLY OR NOT"""
-
+        
         self.assertEqual(perform('9','root'), str(sqrt(9)))
         self.assertEqual(perform('9','log'), str(log(9)))
         self.assertEqual(perform('9','fact'), str(factorial(9)))

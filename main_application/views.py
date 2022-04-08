@@ -3,9 +3,15 @@ from django.shortcuts import render
 from django.http import HttpResponse
 # Create your views here.
 
+from django.http import HttpResponse
+import datetime
+import logging
+logger = logging.getLogger(__name__)
+
 def render_calc(request):
-    context = {"inputs" : "", "res" : ""}
-    return render(request, 'calc/calculator.html')
+	context = {"inputs" : "", "res" : ""}
+	logger.warning('Calculator was accessed at '+str(datetime.datetime.now())+' hours!')
+	return render(request, 'calc/calculator.html')
 
 def perform(arg, ops):
 	res = "PLEASE SELECT CORRECT OPERATION TO PERFORM"
@@ -33,30 +39,35 @@ def perform(arg, ops):
 			res = str(factorial(int(arg)))
 		except:
 			res = 'INVALID INPUT'
+	logger.warning('Operation result was '+ res + " " + str(datetime.datetime.now())+' hours!')
 	return res
 
 def calculate(request):
-    if request.method == 'POST':
-        arg = request.POST["inputs"]
-        if not "inputs" in  request.POST:
-            res = "PLEASE PROVIDE AN APPROPRIATE INPUT"
-            context = {"inputs" : arg, "res" : res}
-            return render(request, 'calc/calculator.html', context)
+	context = {"inputs" : "", "res" : ""}
+	if request.method == 'POST':
+		arg = request.POST["inputs"]	
+		if not "inputs" in  request.POST:
+			res = "PLEASE PROVIDE AN APPROPRIATE INPUT"
+			context = {"inputs" : arg, "res" : res}
+			logger.warning('Operation result was '+ res + " " + str(datetime.datetime.now())+' hours!')
+			return render(request, 'calc/calculator.html', context)
 
-        if not "ops" in  request.POST:
-            res = "PLEASE PROVIDE AN APPROPRIATE OPERATION"
-            context = {"inputs" : arg, "res" : res}
-            return render(request, 'calc/calculator.html', context)
+		if not "ops" in  request.POST:
+			res = "PLEASE PROVIDE AN APPROPRIATE OPERATION"
+			context = {"inputs" : arg, "res" : res}
+			logger.warning('Operation result was '+ res + " " + str(datetime.datetime.now())+' hours!')
+			return render(request, 'calc/calculator.html', context)
+		logger.warning('Reuest for performing operations with params ' + str(request.POST) + " "+ str(datetime.datetime.now())+' hours!')
+		ops = request.POST["ops"]
+		if len(arg) == 0:
+			res = "PLEASE PROVIDE AN APPROPRIATE INPUT"
+			context = {"inputs" : arg, "res" : res}
+			logger.warning('Operation result was '+ res + " " + str(datetime.datetime.now())+' hours!')
+			return render(request, 'calc/calculator.html', context)
+        
+		res = perform(arg, ops)
+		context = {"inputs" : arg, "res" : res}
 
-        ops = request.POST["ops"]
-        if len(arg) == 0:
-            res = "PLEASE PROVIDE AN APPROPRIATE INPUT"
-            context = {"inputs" : arg, "res" : res}
-            return render(request, 'calc/calculator.html', context)
-        
-        res = perform(arg, ops)
-        context = {"inputs" : arg, "res" : res}
-        
-        print("HERE AAAA" + arg + " " + ops)
-        print("CONTEXT " + str(context))
-    return render(request, 'calc/calculator.html', context)
+		print("HERE AAAA" + arg + " " + ops)
+		print("CONTEXT " + str(context))
+	return render(request, 'calc/calculator.html', context)
