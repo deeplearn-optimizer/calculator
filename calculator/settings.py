@@ -141,13 +141,15 @@ JENKINS_TASKS = (
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
+
 LOGGING = { 
     'version': 1,
     'disable_existing_loggers': False,
     'formatters': {
         'verbose': {
             'format' : "[%(asctime)s] %(levelname)s [%(name)s:%(lineno)s] %(message)s",
-            'datefmt' : "%d/%b/%Y %H:%M:%S"
+            'datefmt' : "%Y-%m-%d %H:%M:%S"
+           
         },
         'simple': {
             'format': '%(levelname)s %(message)s'
