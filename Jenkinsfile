@@ -6,10 +6,15 @@ pipeline {
   }
   agent any
   stages {
-    stage('Cloning Git') {
+    stage('Cloning Git AND BUILD') {
       steps {
         git([url: 'https://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@github.com/deeplearn-optimizer/calculator.git', branch: 'master', credentialsId: 'deepdockerpro-github'])
 
+      }
+    }
+    stage('TESTING') {
+      steps{
+         sh "python3 manage.py test"
       }
     }
     stage('Building image') {
