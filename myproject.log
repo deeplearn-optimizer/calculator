@@ -1,0 +1,300 @@
+[16/Apr/2022 10:54:52] WARNING [main_application.views:42] Operation result was 3.0 2022-04-16 10:54:52.564653 hours!
+[16/Apr/2022 10:54:52] WARNING [main_application.views:42] Operation result was 2.1972245773362196 2022-04-16 10:54:52.564831 hours!
+[16/Apr/2022 10:54:52] WARNING [main_application.views:42] Operation result was 362880 2022-04-16 10:54:52.564881 hours!
+[16/Apr/2022 10:54:52] WARNING [main_application.views:42] Operation result was 81.0 2022-04-16 10:54:52.564927 hours!
+[16/Apr/2022 10:55:29] INFO [django.utils.autoreload:643] Watching for file changes with StatReloader
+[16/Apr/2022 10:55:29] INFO [django.utils.autoreload:643] Watching for file changes with StatReloader
+[16/Apr/2022 10:56:38] WARNING [main_application.views:13] Calculator was accessed at 2022-04-16 10:56:38.098673 hours!
+[16/Apr/2022 10:56:38] INFO [django.server:179] "GET / HTTP/1.1" 200 5991
+[16/Apr/2022 10:56:38] INFO [django.server:179] "GET / HTTP/1.1" 200 5991
+[16/Apr/2022 10:56:38] INFO [django.server:179] "GET /static/styles/animate.css HTTP/1.1" 200 23848
+[16/Apr/2022 10:56:38] INFO [django.server:179] "GET /static/styles/animate.css HTTP/1.1" 200 23848
+[16/Apr/2022 10:56:38] INFO [django.server:179] "GET /static/styles/hamburgers.min.css HTTP/1.1" 200 19686
+[16/Apr/2022 10:56:38] INFO [django.server:179] "GET /static/styles/hamburgers.min.css HTTP/1.1" 200 19686
+[16/Apr/2022 10:56:38] INFO [django.server:179] "GET /static/styles/animsition.min.css HTTP/1.1" 200 27478
+[16/Apr/2022 10:56:38] INFO [django.server:179] "GET /static/styles/animsition.min.css HTTP/1.1" 200 27478
+[16/Apr/2022 10:56:38] INFO [django.server:179] "GET /static/styles/daterangepicker.css HTTP/1.1" 200 8163
+[16/Apr/2022 10:56:38] INFO [django.server:179] "GET /static/styles/daterangepicker.css HTTP/1.1" 200 8163
+[16/Apr/2022 10:56:38] INFO [django.server:179] "GET /static/styles/bootstrap.min.css HTTP/1.1" 200 124962
+[16/Apr/2022 10:56:38] INFO [django.server:179] "GET /static/styles/select2.min.css HTTP/1.1" 200 15196
+[16/Apr/2022 10:56:38] INFO [django.server:179] "GET /static/styles/bootstrap.min.css HTTP/1.1" 200 124962
+[16/Apr/2022 10:56:38] INFO [django.server:179] "GET /static/styles/select2.min.css HTTP/1.1" 200 15196
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /static/styles/icon-font.min.css HTTP/1.1" 404 1831
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /static/styles/icon-font.min.css HTTP/1.1" 404 1831
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /static/styles/font-awesome.min.css HTTP/1.1" 404 1840
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /static/styles/font-awesome.min.css HTTP/1.1" 404 1840
+[16/Apr/2022 10:56:38] INFO [django.server:179] "GET /static/styles/main.css HTTP/1.1" 200 8313
+[16/Apr/2022 10:56:38] INFO [django.server:179] "GET /static/styles/main.css HTTP/1.1" 200 8313
+[16/Apr/2022 10:56:38] INFO [django.server:179] "GET /static/styles/util.css HTTP/1.1" 200 86814
+[16/Apr/2022 10:56:38] INFO [django.server:179] "GET /static/styles/util.css HTTP/1.1" 200 86814
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/animsition/js/animsition.min.js
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/jquery/jquery-3.2.1.min.js
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/animsition/js/animsition.min.js
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/jquery/jquery-3.2.1.min.js
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/animsition/js/animsition.min.js HTTP/1.1" 404 2517
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/animsition/js/animsition.min.js HTTP/1.1" 404 2517
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/jquery/jquery-3.2.1.min.js HTTP/1.1" 404 2502
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/jquery/jquery-3.2.1.min.js HTTP/1.1" 404 2502
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/bootstrap/js/popper.js
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/bootstrap/js/popper.js
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/select2/select2.min.js
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/bootstrap/js/bootstrap.min.js
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/select2/select2.min.js
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/daterangepicker/moment.min.js
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/daterangepicker/moment.min.js
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/daterangepicker/daterangepicker.js
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/daterangepicker/daterangepicker.js
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/countdowntime/countdowntime.js
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/countdowntime/countdowntime.js
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/bootstrap/js/bootstrap.min.js
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/select2/select2.min.js HTTP/1.1" 404 2490
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/bootstrap/js/popper.js HTTP/1.1" 404 2490
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/daterangepicker/moment.min.js HTTP/1.1" 404 2511
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/daterangepicker/daterangepicker.js HTTP/1.1" 404 2526
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/select2/select2.min.js HTTP/1.1" 404 2490
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/countdowntime/countdowntime.js HTTP/1.1" 404 2514
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/bootstrap/js/popper.js HTTP/1.1" 404 2490
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/daterangepicker/moment.min.js HTTP/1.1" 404 2511
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 2511
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/daterangepicker/daterangepicker.js HTTP/1.1" 404 2526
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/countdowntime/countdowntime.js HTTP/1.1" 404 2514
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 2511
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/animsition/js/animsition.min.js
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/animsition/js/animsition.min.js
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/animsition/js/animsition.min.js HTTP/1.1" 404 2517
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/animsition/js/animsition.min.js HTTP/1.1" 404 2517
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /js/main.js
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /js/main.js
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /js/main.js HTTP/1.1" 404 2433
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /js/main.js HTTP/1.1" 404 2433
+[16/Apr/2022 10:56:38] INFO [django.server:179] "GET /static/fonts/ubuntu/Ubuntu-Bold.ttf HTTP/1.1" 200 331612
+[16/Apr/2022 10:56:38] INFO [django.server:179] "GET /static/fonts/ubuntu/Ubuntu-Bold.ttf HTTP/1.1" 200 331612
+[16/Apr/2022 10:56:38] INFO [django.server:179] "GET /static/fonts/ubuntu/Ubuntu-Regular.ttf HTTP/1.1" 200 351884
+[16/Apr/2022 10:56:38] INFO [django.server:179] "GET /static/fonts/ubuntu/Ubuntu-Regular.ttf HTTP/1.1" 200 351884
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/bootstrap/js/popper.js
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/bootstrap/js/popper.js
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/bootstrap/js/popper.js HTTP/1.1" 404 2490
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/bootstrap/js/popper.js HTTP/1.1" 404 2490
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/bootstrap/js/bootstrap.min.js
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/bootstrap/js/bootstrap.min.js
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 2511
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 2511
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/select2/select2.min.js
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/select2/select2.min.js
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/select2/select2.min.js HTTP/1.1" 404 2490
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/select2/select2.min.js HTTP/1.1" 404 2490
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/daterangepicker/moment.min.js
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/daterangepicker/moment.min.js
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/daterangepicker/moment.min.js HTTP/1.1" 404 2511
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/daterangepicker/moment.min.js HTTP/1.1" 404 2511
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/daterangepicker/daterangepicker.js
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/daterangepicker/daterangepicker.js
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/daterangepicker/daterangepicker.js HTTP/1.1" 404 2526
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/daterangepicker/daterangepicker.js HTTP/1.1" 404 2526
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/countdowntime/countdowntime.js
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /vendor/countdowntime/countdowntime.js
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/countdowntime/countdowntime.js HTTP/1.1" 404 2514
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /vendor/countdowntime/countdowntime.js HTTP/1.1" 404 2514
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /js/main.js
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /js/main.js
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /js/main.js HTTP/1.1" 404 2433
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /js/main.js HTTP/1.1" 404 2433
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /{% static 'images/favicon.ico' %
+[16/Apr/2022 10:56:38] WARNING [django.request:225] Not Found: /{% static 'images/favicon.ico' %
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /%7B%%20static%20'images/favicon.ico'%20% HTTP/1.1" 404 2541
+[16/Apr/2022 10:56:38] WARNING [django.server:179] "GET /%7B%%20static%20'images/favicon.ico'%20% HTTP/1.1" 404 2541
+[16/Apr/2022 10:58:26] WARNING [main_application.views:42] Operation result was 3.0 2022-04-16 10:58:26.823588 hours!
+[16/Apr/2022 10:58:26] WARNING [main_application.views:42] Operation result was 2.1972245773362196 2022-04-16 10:58:26.823773 hours!
+[16/Apr/2022 10:58:26] WARNING [main_application.views:42] Operation result was 362880 2022-04-16 10:58:26.823845 hours!
+[16/Apr/2022 10:58:26] WARNING [main_application.views:42] Operation result was 81.0 2022-04-16 10:58:26.823902 hours!
+[16/Apr/2022 11:02:58] WARNING [main_application.views:42] Operation result was 3.0 2022-04-16 11:02:58.259469 hours!
+[16/Apr/2022 11:02:58] WARNING [main_application.views:42] Operation result was 3.7416573867739413 2022-04-16 11:02:58.259645 hours!
+[16/Apr/2022 11:02:58] WARNING [main_application.views:42] Operation result was 5.0 2022-04-16 11:02:58.259726 hours!
+[16/Apr/2022 11:02:58] WARNING [main_application.views:42] Operation result was 6.0 2022-04-16 11:02:58.259790 hours!
+[16/Apr/2022 11:02:58] WARNING [main_application.views:42] Operation result was 2.1972245773362196 2022-04-16 11:02:58.259849 hours!
+[16/Apr/2022 11:02:58] WARNING [main_application.views:42] Operation result was 2.6390573296152584 2022-04-16 11:02:58.259896 hours!
+[16/Apr/2022 11:02:58] WARNING [main_application.views:42] Operation result was 3.2188758248682006 2022-04-16 11:02:58.259938 hours!
+[16/Apr/2022 11:02:58] WARNING [main_application.views:42] Operation result was 3.58351893845611 2022-04-16 11:02:58.259988 hours!
+[16/Apr/2022 11:02:58] WARNING [main_application.views:42] Operation result was 362880 2022-04-16 11:02:58.260030 hours!
+[16/Apr/2022 11:02:58] WARNING [main_application.views:42] Operation result was 87178291200 2022-04-16 11:02:58.260069 hours!
+[16/Apr/2022 11:02:58] WARNING [main_application.views:42] Operation result was 81.0 2022-04-16 11:02:58.260111 hours!
+[16/Apr/2022 11:02:58] WARNING [main_application.views:42] Operation result was 196.0 2022-04-16 11:02:58.260151 hours!
+[16/Apr/2022 11:02:58] WARNING [main_application.views:42] Operation result was 225.0 2022-04-16 11:02:58.260191 hours!
+[16/Apr/2022 11:02:58] WARNING [main_application.views:42] Operation result was 400.0 2022-04-16 11:02:58.260231 hours!
+[16/Apr/2022 11:05:33] INFO [django.utils.autoreload:643] Watching for file changes with StatReloader
+[16/Apr/2022 11:05:33] INFO [django.utils.autoreload:643] Watching for file changes with StatReloader
+[16/Apr/2022 11:05:35] WARNING [main_application.views:13] Calculator was accessed at 
+[16/Apr/2022 11:05:35] INFO [django.server:179] "GET / HTTP/1.1" 200 5991
+[16/Apr/2022 11:05:35] INFO [django.server:179] "GET / HTTP/1.1" 200 5991
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/select2/select2.min.js
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/bootstrap/js/popper.js
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/daterangepicker/moment.min.js
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/daterangepicker/moment.min.js
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/select2/select2.min.js
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/bootstrap/js/popper.js
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/bootstrap/js/bootstrap.min.js
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/bootstrap/js/bootstrap.min.js
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/animsition/js/animsition.min.js
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/daterangepicker/moment.min.js HTTP/1.1" 404 2511
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/daterangepicker/moment.min.js HTTP/1.1" 404 2511
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/jquery/jquery-3.2.1.min.js
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/animsition/js/animsition.min.js
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/bootstrap/js/popper.js HTTP/1.1" 404 2490
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 2511
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 2511
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/jquery/jquery-3.2.1.min.js
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/bootstrap/js/popper.js HTTP/1.1" 404 2490
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/select2/select2.min.js HTTP/1.1" 404 2490
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/animsition/js/animsition.min.js HTTP/1.1" 404 2517
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/select2/select2.min.js HTTP/1.1" 404 2490
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/daterangepicker/daterangepicker.js
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/jquery/jquery-3.2.1.min.js HTTP/1.1" 404 2502
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/animsition/js/animsition.min.js HTTP/1.1" 404 2517
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/daterangepicker/daterangepicker.js
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/jquery/jquery-3.2.1.min.js HTTP/1.1" 404 2502
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /js/main.js
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /js/main.js
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/countdowntime/countdowntime.js
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/countdowntime/countdowntime.js
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /static/styles/font-awesome.min.css HTTP/1.1" 404 1840
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/daterangepicker/daterangepicker.js HTTP/1.1" 404 2526
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /static/styles/font-awesome.min.css HTTP/1.1" 404 1840
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/daterangepicker/daterangepicker.js HTTP/1.1" 404 2526
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/countdowntime/countdowntime.js HTTP/1.1" 404 2514
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/countdowntime/countdowntime.js HTTP/1.1" 404 2514
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/animsition/js/animsition.min.js
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /js/main.js HTTP/1.1" 404 2433
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/animsition/js/animsition.min.js
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /js/main.js HTTP/1.1" 404 2433
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /static/styles/icon-font.min.css HTTP/1.1" 404 1831
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /static/styles/icon-font.min.css HTTP/1.1" 404 1831
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/animsition/js/animsition.min.js HTTP/1.1" 404 2517
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/animsition/js/animsition.min.js HTTP/1.1" 404 2517
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/bootstrap/js/popper.js
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/bootstrap/js/popper.js
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/bootstrap/js/popper.js HTTP/1.1" 404 2490
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/bootstrap/js/popper.js HTTP/1.1" 404 2490
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/bootstrap/js/bootstrap.min.js
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/bootstrap/js/bootstrap.min.js
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 2511
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 2511
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/select2/select2.min.js
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/select2/select2.min.js
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/select2/select2.min.js HTTP/1.1" 404 2490
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/select2/select2.min.js HTTP/1.1" 404 2490
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/daterangepicker/moment.min.js
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/daterangepicker/moment.min.js
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/daterangepicker/moment.min.js HTTP/1.1" 404 2511
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/daterangepicker/moment.min.js HTTP/1.1" 404 2511
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/daterangepicker/daterangepicker.js
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/daterangepicker/daterangepicker.js
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/daterangepicker/daterangepicker.js HTTP/1.1" 404 2526
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/daterangepicker/daterangepicker.js HTTP/1.1" 404 2526
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/countdowntime/countdowntime.js
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /vendor/countdowntime/countdowntime.js
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/countdowntime/countdowntime.js HTTP/1.1" 404 2514
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /vendor/countdowntime/countdowntime.js HTTP/1.1" 404 2514
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /js/main.js
+[16/Apr/2022 11:05:36] WARNING [django.request:225] Not Found: /js/main.js
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /js/main.js HTTP/1.1" 404 2433
+[16/Apr/2022 11:05:36] WARNING [django.server:179] "GET /js/main.js HTTP/1.1" 404 2433
+[16/Apr/2022 11:05:42] WARNING [main_application.views:60] Reuest for performing operations with params <QueryDict: {'csrfmiddlewaretoken': ['qqTqvcWm2uvDzVVqa6J6FrA2uON15DoQ8Z4STA0cf7tIiN8c45PaC8cjP3HQZ450'], 'inputs': ['9,2'], 'pass': [''], 'ops': ['power']}> 2022-04-16 11:05:42.691036 hours!
+[16/Apr/2022 11:05:42] WARNING [main_application.views:42] Operation result was 81.0
+[16/Apr/2022 11:05:42] INFO [django.server:179] "POST /calculate/ HTTP/1.1" 200 5998
+[16/Apr/2022 11:05:42] INFO [django.server:179] "POST /calculate/ HTTP/1.1" 200 5998
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/animsition/js/animsition.min.js
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/animsition/js/animsition.min.js
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/jquery/jquery-3.2.1.min.js
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/jquery/jquery-3.2.1.min.js
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/animsition/js/animsition.min.js HTTP/1.1" 404 2547
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/animsition/js/animsition.min.js HTTP/1.1" 404 2547
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1" 404 2532
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/bootstrap/js/popper.js
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/bootstrap/js/bootstrap.min.js
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/daterangepicker/moment.min.js
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/daterangepicker/moment.min.js
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/bootstrap/js/popper.js
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/bootstrap/js/bootstrap.min.js
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/select2/select2.min.js
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1" 404 2532
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/daterangepicker/daterangepicker.js
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/daterangepicker/daterangepicker.js
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/daterangepicker/moment.min.js HTTP/1.1" 404 2541
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/bootstrap/js/popper.js HTTP/1.1" 404 2520
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 2541
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 2541
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/daterangepicker/moment.min.js HTTP/1.1" 404 2541
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/bootstrap/js/popper.js HTTP/1.1" 404 2520
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/select2/select2.min.js
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/daterangepicker/daterangepicker.js HTTP/1.1" 404 2556
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/countdowntime/countdowntime.js
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/daterangepicker/daterangepicker.js HTTP/1.1" 404 2556
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/countdowntime/countdowntime.js
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/js/main.js
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/select2/select2.min.js HTTP/1.1" 404 2520
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/js/main.js
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/countdowntime/countdowntime.js HTTP/1.1" 404 2544
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /static/styles/font-awesome.min.css HTTP/1.1" 404 1840
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /static/styles/icon-font.min.css HTTP/1.1" 404 1831
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /static/styles/icon-font.min.css HTTP/1.1" 404 1831
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/animsition/js/animsition.min.js
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/animsition/js/animsition.min.js
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/animsition/js/animsition.min.js HTTP/1.1" 404 2547
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/animsition/js/animsition.min.js HTTP/1.1" 404 2547
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/js/main.js HTTP/1.1" 404 2463
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/js/main.js HTTP/1.1" 404 2463
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/select2/select2.min.js HTTP/1.1" 404 2520
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /static/styles/font-awesome.min.css HTTP/1.1" 404 1840
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/countdowntime/countdowntime.js HTTP/1.1" 404 2544
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/bootstrap/js/popper.js
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/bootstrap/js/popper.js
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/bootstrap/js/popper.js HTTP/1.1" 404 2520
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/bootstrap/js/popper.js HTTP/1.1" 404 2520
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/bootstrap/js/bootstrap.min.js
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/bootstrap/js/bootstrap.min.js
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 2541
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 2541
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/select2/select2.min.js
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/select2/select2.min.js
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/select2/select2.min.js HTTP/1.1" 404 2520
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/select2/select2.min.js HTTP/1.1" 404 2520
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/daterangepicker/moment.min.js
+[16/Apr/2022 11:05:42] WARNING [django.request:225] Not Found: /calculate/vendor/daterangepicker/moment.min.js
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/daterangepicker/moment.min.js HTTP/1.1" 404 2541
+[16/Apr/2022 11:05:42] WARNING [django.server:179] "GET /calculate/vendor/daterangepicker/moment.min.js HTTP/1.1" 404 2541
+[16/Apr/2022 11:05:43] WARNING [django.request:225] Not Found: /calculate/vendor/daterangepicker/daterangepicker.js
+[16/Apr/2022 11:05:43] WARNING [django.request:225] Not Found: /calculate/vendor/daterangepicker/daterangepicker.js
+[16/Apr/2022 11:05:43] WARNING [django.server:179] "GET /calculate/vendor/daterangepicker/daterangepicker.js HTTP/1.1" 404 2556
+[16/Apr/2022 11:05:43] WARNING [django.server:179] "GET /calculate/vendor/daterangepicker/daterangepicker.js HTTP/1.1" 404 2556
+[16/Apr/2022 11:05:43] WARNING [django.request:225] Not Found: /calculate/vendor/countdowntime/countdowntime.js
+[16/Apr/2022 11:05:43] WARNING [django.request:225] Not Found: /calculate/vendor/countdowntime/countdowntime.js
+[16/Apr/2022 11:05:43] WARNING [django.server:179] "GET /calculate/vendor/countdowntime/countdowntime.js HTTP/1.1" 404 2544
+[16/Apr/2022 11:05:43] WARNING [django.server:179] "GET /calculate/vendor/countdowntime/countdowntime.js HTTP/1.1" 404 2544
+[16/Apr/2022 11:05:43] WARNING [django.request:225] Not Found: /calculate/js/main.js
+[16/Apr/2022 11:05:43] WARNING [django.request:225] Not Found: /calculate/js/main.js
+[16/Apr/2022 11:05:43] WARNING [django.server:179] "GET /calculate/js/main.js HTTP/1.1" 404 2463
+[16/Apr/2022 11:05:43] WARNING [django.server:179] "GET /calculate/js/main.js HTTP/1.1" 404 2463
+[16/Apr/2022 11:05:43] WARNING [django.request:225] Not Found: /calculate/{% static 'images/favicon.ico' %
+[16/Apr/2022 11:05:43] WARNING [django.request:225] Not Found: /calculate/{% static 'images/favicon.ico' %
+[16/Apr/2022 11:05:43] WARNING [django.server:179] "GET /calculate/%7B%%20static%20'images/favicon.ico'%20% HTTP/1.1" 404 2571
+[16/Apr/2022 11:05:43] WARNING [django.server:179] "GET /calculate/%7B%%20static%20'images/favicon.ico'%20% HTTP/1.1" 404 2571
+[16/Apr/2022 11:11:11] INFO [django.utils.autoreload:257] /home/deepak/Desktop/calculator/calculator/settings.py changed, reloading.
+[16/Apr/2022 11:11:11] INFO [django.utils.autoreload:257] /home/deepak/Desktop/calculator/calculator/settings.py changed, reloading.
+[16/Apr/2022 11:11:11] INFO [django.utils.autoreload:643] Watching for file changes with StatReloader
+[16/Apr/2022 11:11:11] INFO [django.utils.autoreload:643] Watching for file changes with StatReloader
+[16/Apr/2022 11:11:44] INFO [django.utils.autoreload:643] Watching for file changes with StatReloader
+[16/Apr/2022 11:11:44] INFO [django.utils.autoreload:643] Watching for file changes with StatReloader
+[16/Apr/2022 11:11:57] WARNING [main_application.views:42] Operation result was 3.0
+[16/Apr/2022 11:11:57] WARNING [main_application.views:42] Operation result was 3.7416573867739413
+[16/Apr/2022 11:11:57] WARNING [main_application.views:42] Operation result was 5.0
+[16/Apr/2022 11:11:57] WARNING [main_application.views:42] Operation result was 6.0
+[16/Apr/2022 11:11:57] WARNING [main_application.views:42] Operation result was 2.1972245773362196
+[16/Apr/2022 11:11:57] WARNING [main_application.views:42] Operation result was 2.6390573296152584
+[16/Apr/2022 11:11:57] WARNING [main_application.views:42] Operation result was 3.2188758248682006
+[16/Apr/2022 11:11:57] WARNING [main_application.views:42] Operation result was 3.58351893845611
+[16/Apr/2022 11:11:57] WARNING [main_application.views:42] Operation result was 362880
+[16/Apr/2022 11:11:57] WARNING [main_application.views:42] Operation result was 87178291200
+[16/Apr/2022 11:11:57] WARNING [main_application.views:42] Operation result was 81.0
+[16/Apr/2022 11:11:57] WARNING [main_application.views:42] Operation result was 196.0
+[16/Apr/2022 11:11:57] WARNING [main_application.views:42] Operation result was 225.0
+[16/Apr/2022 11:11:57] WARNING [main_application.views:42] Operation result was 400.0

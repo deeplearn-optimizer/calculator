@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'calculator.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': str(BASE_DIR / "db.sqlite3"),
     }
 }
 
@@ -140,21 +140,39 @@ JENKINS_TASKS = (
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-LOGGING = {
+
+LOGGING = { 
     'version': 1,
     'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format' : "[%(asctime)s] %(levelname)s [%(name)s:%(lineno)s] %(message)s",
+            'datefmt' : "%d/%b/%Y %H:%M:%S"
+        },
+        'simple': {
+            'format': '%(levelname)s %(message)s'
+        },
+    },  
     'handlers': {
         'file': {
-            'level': 'WARNING',
-            'class': 'logging.FileHandler',
-            'filename': BASE_DIR / 'warning.log',
+            'level': 'INFO',
+            'class': 'logging.handlers.TimedRotatingFileHandler',
+            'filename': 'myproject.log',
+            'when': 'D', # this specifies the interval
+            'interval': 1, # defaults to 1, only necessary for other values 
+            'backupCount': 10, # how many backup file to keep, 10 days
+            'formatter': 'verbose',
         },
-    },
+
+    },  
     'loggers': {
-        '': {
-            'handlers': ['file'], 
-            'level': 'WARNING',
-            'propagate': True,
+        'django': {
+            'handlers': ['file'],
+            'level': os.getenv('DJANGO_LOG_LEVEL', 'INFO'),
         },
-    },
+        '': {
+            'handlers': ['file'],
+            'level': os.getenv('DJANGO_LOG_LEVEL', 'INFO'),
+        }
+    },  
 }

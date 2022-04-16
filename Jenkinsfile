@@ -12,6 +12,16 @@ pipeline {
 
       }
     }
+    stage('Build') {
+	steps{
+         sh "python3 manage.py migrate"
+      }
+    }
+    stage('Testing') {
+      steps{
+         sh "python3 manage.py test"
+      }
+    }
     stage('Building image') {
       steps{
         script {
