@@ -1,8 +1,6 @@
 from math import sqrt,factorial,log,pow
 from django.shortcuts import render
 from django.http import HttpResponse
-# Create your views here.
-
 from django.http import HttpResponse
 import datetime
 import logging

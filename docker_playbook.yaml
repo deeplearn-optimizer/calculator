@@ -47,7 +47,7 @@
 
     - name: Launch the calculator container
       docker_container:
-        name: my_calculator
+        name: calculation_container
         image: deepdockerpro/my_calculator
         state: started
         ports:

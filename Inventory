@@ -1,8 +1,8 @@
-Docker ansible_host=3.85.232.131
+Application_Server ansible_host=3.85.232.131
 
-[servers_group]
-Docker
+[Application_Server_group]
+Application_Server
 
-[servers_group:vars]
+[Application_Server_group:vars]
 ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 

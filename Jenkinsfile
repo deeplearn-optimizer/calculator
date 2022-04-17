@@ -1,8 +1,8 @@
 pipeline {
   environment {
-    imagename = "deepdockerpro/my_calculator"
-    registryCredential = 'deepdockerpro-dockerhub'
-    dockerImage = ''
+    Image_name = "deepdockerpro/my_calculator"
+    DockerHubCredential = 'deepdockerpro-dockerhub'
+    Docker_image = ''
   }
   agent any
   stages {
@@ -12,42 +12,42 @@ pipeline {
 
       }
     }
-    stage('Build') {
+    stage('Build Python Application') {
 	steps{
          sh "python3 manage.py migrate"
       }
     }
-    stage('Testing') {
+    stage('Test Python Application') {
       steps{
          sh "python3 manage.py test"
       }
     }
-    stage('Building image') {
+    stage('Build Docker Image') {
       steps{
         script {
-          dockerImage = docker.build imagename
+          Docker_image = docker.build Image_name
         }
       }
     }
-    stage('Deploy Image') {
+    stage('Deploy Image to Docker Hub') {
       steps{
         script {
-          docker.withRegistry( '', registryCredential ) {
-             dockerImage.push('latest')
+          docker.withRegistry( '', DockerHubCredential ) {
+             Docker_image.push('latest')
           }
         }
       }
     }
-    stage('Remove Unused docker image') {
+    stage('Delete Docker Image') {
       steps{
-         sh "docker rmi $imagename:latest"
+         sh "docker rmi $Image_name:latest"
       }
     }
 
-    stage("Invoke ansible playbook") {
+    stage("Run Ansible Playbook") {
       steps{
       ansiblePlaybook(
-      	credentialsId: "contnainer_access_key",
+      	credentialsId: "container_access_key",
         inventory: "Inventory",
         installation: "ansible",
         limit: "",
