@@ -33,10 +33,11 @@ def perform(arg, ops):
 			res = 'INVALID INPUT'
 
 	elif ops == 'fact':
-		if(len(arg) >= 21):
-			res = 'INVALID INPUT'
-			return res
+		
 		try:
+			if(int(arg) >= 21):
+				res = 'INVALID INPUT (FACT 21)'
+				return res
 			res = str(factorial(int(arg)))
 		except:
 			res = 'INVALID INPUT'
