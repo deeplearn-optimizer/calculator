@@ -33,6 +33,9 @@ def perform(arg, ops):
 			res = 'INVALID INPUT'
 
 	elif ops == 'fact':
+		if(len(arg) >= 21):
+			res = 'INVALID INPUT'
+			return res
 		try:
 			res = str(factorial(int(arg)))
 		except:
@@ -55,7 +58,7 @@ def calculate(request):
 			context = {"inputs" : arg, "res" : res}
 			logger.warning('Operation result was '+ res)
 			return render(request, 'calc/calculator.html', context)
-		logger.warning('Reuest for performing operations with params ' + str(request.POST) + " "+ str(datetime.datetime.now())+' hours!')
+		logger.warning('Reuest for performing operations with params ')
 		ops = request.POST["ops"]
 		if len(arg) == 0:
 			res = "PLEASE PROVIDE AN APPROPRIATE INPUT"
