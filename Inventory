@@ -5,3 +5,5 @@ Application_Server
 
 [Application_Server_group:vars]
 ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+
+
